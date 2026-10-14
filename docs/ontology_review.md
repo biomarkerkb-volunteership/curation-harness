@@ -1,9 +1,26 @@
 # Ontology and identifier resource review
 
-## Task
+List of ontologies and identifier resources to be used in the curation harness.
 
-Recommend resources for standardizing the data components needed to curate molecular clinical biomarkers. Start with the existing BiomarkerKB preferences, then assess whether each resource represents the concepts and level of detail reported in articles.
+## Table summary
 
-Information needed: biomarker entity type enumerations and current policies, reviewed new resources obo/non-obo (annotations they carry), recommendations, compare resources and decide on fallback rules.
+| Resource (ABBR)       | Description             | Containing information | Used in step         |
+| --------------------- | ----------------------- | ---------------------- | -------------------- |
+| UniprotKB             | Protein (Non-OBO)       | HGNC symbols, synonyms | biomarker extraction |
+| Protein Ontology (PR) | Protein/protein complex | Uniprot acc, GO acc    | biomarker extraction |
 
-Example mappings from real examples.
+## Detailed summary
+
+1. UniprotKB
+   - Protein names, synonyms, and stable accession IDs (organism-specific).
+   - Amino acid sequences and isoforms.
+   - Functional annotations (enzymatic activity, biological pathways, and molecular functions).
+   - Subcellular locations and tissue-specificity.
+   - Disease associations, genetic variations, and mutant phenotypes.
+   - Post-translational modifications (PTMs), active sites, and structural domains.
+   - Literature citations and evidence attribution.
+
+2. Protein Ontology (PR)
+   - Protein names, synonyms, and stable accession IDs.
+   - Contains complexes (encoded by multiple genes).
+   - Gene ontology accessions, Uniprot accessions (common organisms only).
