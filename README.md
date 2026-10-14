@@ -54,7 +54,7 @@ See: [The Complete Guide to Building Skills for Claude](https://resources.anthro
 | ------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Kickoff | Sep 29–Oct 4 | Kickoff meeting and project discussion. Familiarize with data model.                                                                                              |
 | 1       | Oct 5–11     | Project planning. Read data upload guide and controlled vocabulary. Initiate OBO/non-OBO candidate inventory (S1).                                                |
-| 2       | Oct 12–18    | Finish fallback table (S1). Select 1 paper for each biomarker entity type to discuss curation flow (S2).                                                          |
+| 2       | Oct 12–18    | Complete the annotations document and optionally create JSON schemas for biomarker extraction (S2).                                                               |
 | 3       | Oct 19–25    | Draft `study-type` + `measurement/sample-preparation` + `treatment` routes and prompts, enumerate required/optional annotations.                                  |
 | 4       | Oct 26–Nov 1 | Draft entity-specific questions and rules for single, multi-entity, and multicomponent biomarkers.                                                                |
 | 5       | Nov 2–8      | Draft the BEST `biomarker-role` guiding questions, routes, and prompts, enumerate required/optional annotations.                                                  |
